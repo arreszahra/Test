@@ -1,0 +1,74 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1>This my first HTML project</h1>
+    </header>
+    <main>
+      <nav>
+        <a href="#Home">Home </a>
+        <a href="#About">About </a>
+        <a href="#Contact"> Contact</a>
+      </nav>
+      <section id="Home">
+        <div>
+          <h2>Welcome from Home page</h2>
+          <p>
+            HTML signifie « HyperText Markup Language » qu'on peut traduire par
+            « langage de balisespour l'hypertexte ». Il est utilisé afin de
+            créer et de représenter le contenu d'une page web et sa structure.
+            D'autres technologies sont utilisées avec HTML pour décrire la
+            présentation d'une page (CSS) et/ou ses fonctionnalités interactives
+            (JavaScript).
+          </p>
+          <img src="téléchargement.jpg" />
+        </div>
+      </section>
+      <section id="About">
+        <h3>welcome from About page</h3>
+        <ol type="1">
+          <li>Zahra</li>
+          <li>Arres</li>
+          <li>i'm 29 years old</li>
+          <li>i learn web developement</li>
+        </ol>
+        <p>
+          here is the link of our video 
+        </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ts0mU1_fQVA?si=baeVi_PQymktWUYI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        
+      </section>
+      <section id="Contact">
+        <h4> hello from contact </h4>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+    
+            <button type="submit">Submit</button>
+          </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
